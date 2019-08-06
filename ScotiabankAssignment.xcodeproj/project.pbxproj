@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C7814A122F933FD00B00B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7814A022F933FD00B00B2A /* AppDelegate.swift */; };
-		0C7814A322F933FD00B00B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7814A222F933FD00B00B2A /* ViewController.swift */; };
+		0C7814A322F933FD00B00B2A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7814A222F933FD00B00B2A /* HomeViewController.swift */; };
 		0C7814A622F933FD00B00B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7814A422F933FD00B00B2A /* Main.storyboard */; };
 		0C7814A922F933FD00B00B2A /* ScotiabankAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C7814A722F933FD00B00B2A /* ScotiabankAssignment.xcdatamodeld */; };
 		0C7814AB22F933FE00B00B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7814AA22F933FE00B00B2A /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		0C78149D22F933FD00B00B2A /* ScotiabankAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScotiabankAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7814A022F933FD00B00B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C7814A222F933FD00B00B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C7814A222F933FD00B00B2A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0C7814A522F933FD00B00B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C7814A822F933FD00B00B2A /* ScotiabankAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScotiabankAssignment.xcdatamodel; sourceTree = "<group>"; };
 		0C7814AA22F933FE00B00B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				0C7814A022F933FD00B00B2A /* AppDelegate.swift */,
-				0C7814A222F933FD00B00B2A /* ViewController.swift */,
+				0C7814A222F933FD00B00B2A /* HomeViewController.swift */,
 				0C7814A422F933FD00B00B2A /* Main.storyboard */,
 				0C7814AA22F933FE00B00B2A /* Assets.xcassets */,
 				0C7814AC22F933FE00B00B2A /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7814A322F933FD00B00B2A /* ViewController.swift in Sources */,
+				0C7814A322F933FD00B00B2A /* HomeViewController.swift in Sources */,
 				0C7814A122F933FD00B00B2A /* AppDelegate.swift in Sources */,
 				0C7814A922F933FD00B00B2A /* ScotiabankAssignment.xcdatamodeld in Sources */,
 			);
