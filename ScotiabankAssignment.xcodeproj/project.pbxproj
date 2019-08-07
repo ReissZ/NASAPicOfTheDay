@@ -15,6 +15,8 @@
 		0C7814AE22F933FE00B00B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7814AC22F933FE00B00B2A /* LaunchScreen.storyboard */; };
 		0C7814B922F933FE00B00B2A /* ScotiabankAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7814B822F933FE00B00B2A /* ScotiabankAssignmentTests.swift */; };
 		0C7814C422F933FE00B00B2A /* ScotiabankAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7814C322F933FE00B00B2A /* ScotiabankAssignmentUITests.swift */; };
+		0C7DD7E222FA851600EDEC24 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7DD7E122FA851600EDEC24 /* NetworkingService.swift */; };
+		0C7DD7E422FA878900EDEC24 /* NASAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7DD7E322FA878900EDEC24 /* NASAModel.swift */; };
 		0CF5FCFC22F9C029006E212F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5FCFB22F9C029006E212F /* SecondViewController.swift */; };
 		0CF5FCFE22F9C5BD006E212F /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5FCFD22F9C5BD006E212F /* AnimationController.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +53,8 @@
 		0C7814BF22F933FE00B00B2A /* ScotiabankAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScotiabankAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7814C322F933FE00B00B2A /* ScotiabankAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScotiabankAssignmentUITests.swift; sourceTree = "<group>"; };
 		0C7814C522F933FE00B00B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7DD7E122FA851600EDEC24 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		0C7DD7E322FA878900EDEC24 /* NASAModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAModel.swift; sourceTree = "<group>"; };
 		0CF5FCFB22F9C029006E212F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0CF5FCFD22F9C5BD006E212F /* AnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				0C7814A022F933FD00B00B2A /* AppDelegate.swift */,
+				0C7DD7E122FA851600EDEC24 /* NetworkingService.swift */,
+				0C7DD7E322FA878900EDEC24 /* NASAModel.swift */,
 				0C7814A222F933FD00B00B2A /* HomeViewController.swift */,
 				0CF5FCFB22F9C029006E212F /* SecondViewController.swift */,
 				0CF5FCFD22F9C5BD006E212F /* AnimationController.swift */,
@@ -268,6 +274,8 @@
 				0CF5FCFC22F9C029006E212F /* SecondViewController.swift in Sources */,
 				0C7814A322F933FD00B00B2A /* HomeViewController.swift in Sources */,
 				0C7814A122F933FD00B00B2A /* AppDelegate.swift in Sources */,
+				0C7DD7E222FA851600EDEC24 /* NetworkingService.swift in Sources */,
+				0C7DD7E422FA878900EDEC24 /* NASAModel.swift in Sources */,
 				0C7814A922F933FD00B00B2A /* ScotiabankAssignment.xcdatamodeld in Sources */,
 				0CF5FCFE22F9C5BD006E212F /* AnimationController.swift in Sources */,
 			);
