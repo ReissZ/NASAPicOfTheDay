@@ -28,7 +28,7 @@ class HomeViewController: UIViewController {
         
         NetworkingService.shared.getPicOfTheDay { [weak self] (response) in
             self?.nasaPicURL = response.url
-            self?.nasaText = response.explanation
+            self?.nasaText = response.title
             
             let imageURL = response.url
             print("imageurl: \(imageURL)")

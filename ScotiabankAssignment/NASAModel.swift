@@ -9,6 +9,6 @@ import Foundation
 
 struct NASA: Decodable {
     
-    let explanation: String
+    let title: String
     let url: URL
 }
